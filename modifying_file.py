@@ -31,7 +31,7 @@ for data in star_data:
         data[3] = data[3].replace('â€“', ' ')
         data[3] = data[3].replace('<', '')
         data[3] = float(data[3].split(' ')[0])
-        data[3] = float(data[3]) * 0.000954588
+        data[3] = float(data[3])
         # print(data[3])
 
     if data[4] != '?':
@@ -40,7 +40,7 @@ for data in star_data:
         data[4] = data[4].replace('Â´', ' ')
         data[4] = data[4].replace(',', '')
         data[4] = float(data[4].split(' ')[0])
-        data[4] = float(data[4]) * 0.102763
+        data[4] = float(data[4])
         # print(data[4])
 
 with open('modified_file.csv', 'w') as f3:
