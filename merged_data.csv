@@ -144,9 +144,9 @@ Serial number,name,distance,mass,radius,luminosity
 
 72,Lacaille 8760,12.87,0.6,0.51,0.072
 
-73,V838 Monocerotis,19896.0,0.0,380.0,"15,000"
+73,V838 Monocerotis,19896.0,?,380.0,"15,000"
 
-74,HD 140283,190.0,0.0,1.4,3.83
+74,HD 140283,190.0,?,1.4,3.83
 
 75,II Pegasi,130.0,0.8,3.4,1.06
 
@@ -160,7 +160,7 @@ Serial number,name,distance,mass,radius,luminosity
 
 80,Barnard's Star,5.98,0.14,0.2,0.0035
 
-81,Luhman 16,6.52,0.04,0.0,?
+81,Luhman 16,6.52,0.04,?,?
 
 82,Proxima Centauri,4.25,0.12,0.15,0.0017
 
@@ -188,9 +188,9 @@ Serial number,name,distance,mass,radius,luminosity
 
 94,2MASS J0523-1403,40.3,0.07,0.086,0.00013
 
-95,WISE 0855−0714,7.27,0.003,0.0,?
+95,WISE 0855−0714,7.27,0.003,?,?
 
-96,Icarus,14400000000.0,33.0,0.0,"850,000"
+96,Icarus,14400000000.0,33.0,?,"850,000"
 
 
 0,SDSS J000013.54+255418.6 [de],46.1,0.045820224,0.10173536999999999
