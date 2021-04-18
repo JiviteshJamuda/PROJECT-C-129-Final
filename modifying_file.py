@@ -32,6 +32,8 @@ for data in star_data:
         data[3] = data[3].replace('<', '')
         data[3] = float(data[3].split(' ')[0])
         # print(data[3])
+    else:
+        data[3] = data[3].replace('?', '')
 
     if data[4] != '?':
         data[4] = data[4].replace('-', ' ')
@@ -40,6 +42,8 @@ for data in star_data:
         data[4] = data[4].replace(',', '')
         data[4] = float(data[4].split(' ')[0])
         # print(data[4])
+    else:
+        data[4] = data[4].replace('?', '')
 
 with open('modified_file.csv', 'w') as f3:
     csv_writer = csv.writer(f3)
